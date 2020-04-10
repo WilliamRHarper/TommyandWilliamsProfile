@@ -225,6 +225,25 @@ section {
 	font-family: 'Great Vibes', cursive;
 }
 
+#last-name {
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-size: 0;
+	font-family: 'Great Vibes', cursive;
+	animation: grow 2s 1;
+}
+
+@keyframes grow {
+	0% {
+		font-size: 30px;
+	}
+	100% {
+		font-size: 120px;
+	}
+
+}
+
 #gotchatext {
 	text-align: center;
 	margin-left: 28%;
@@ -254,4 +273,17 @@ section {
 	justify-content: center;
 }
 
+#about-link {
+	color: blue;
+	font-family: 'Lobster', cursive;
+}
 
+#resume-link {
+	color: blue;
+	font-family: 'Lobster', cursive;	
+}
+
+#contact-link {
+	color: blue;
+	font-family: 'Lobster', cursive;	
+}
