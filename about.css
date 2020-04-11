@@ -278,17 +278,9 @@ section {
 	justify-content: center;
 }
 
-#about-link {
+.links {
 	color: blue;
 	font-family: 'Lobster', cursive;
 }
 
-#resume-link {
-	color: blue;
-	font-family: 'Lobster', cursive;	
-}
 
-#contact-link {
-	color: blue;
-	font-family: 'Lobster', cursive;	
-}
