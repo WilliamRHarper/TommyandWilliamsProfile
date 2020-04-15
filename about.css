@@ -236,7 +236,7 @@ section {
 
 @keyframes grow {
 	0% {
-		font-size: 30px;
+		font-size: 0px;
 	}
 	100% {
 		font-size: 120px;
@@ -282,5 +282,26 @@ section {
 	color: blue;
 	font-family: 'Lobster', cursive;
 }
+
+.col {
+	flex: 33%;
+    max-width: 30%;
+}
+
+.col .imageContainer img {
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .imageContainer {
+    height: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-bottom: 18px;
+    margin-right: 18px;
+  }
+
+
 
 
