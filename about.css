@@ -9,6 +9,11 @@ P: white
 /* -------------------------
     Typography Declarartions
    -------------------------*/
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+@import url(https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
 
    body {
 	color: #222222;
@@ -33,15 +38,8 @@ P: white
 		Link Styles
 	 -------------------------*/
   
-  a {
+a {
 	font-weight: bold;
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
-
-@import url(https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap);
-
-@import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
-
-* {
   font-family: Open Sans;
 }
 
@@ -323,9 +321,10 @@ section {
 	.masthead-heading {
 	  font-size: 3em;
 	}
-  }
-
 }
+  
+
+
 
 .container {
 	background-color: lightseagreen;
@@ -341,7 +340,7 @@ section {
 	padding-top: 20px;
 }
 
-.name {
+#name {
 	/* width: 100%;
 	margin-left: 32%; */
 	display: flex;
@@ -351,7 +350,7 @@ section {
 	font-family: 'Great Vibes', cursive;
 }
 
-.last-name {
+#last-name {
 	display: flex;
 	justify-content: center;
 	color: white;
@@ -408,5 +407,4 @@ section {
 	color: blue;
 	font-family: 'Lobster', cursive;
 }
-
 
