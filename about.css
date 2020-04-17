@@ -1,8 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
-@import url(https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap);
 
-@import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
 
 * {
   font-family: Open Sans;
@@ -200,107 +198,6 @@ section {
 	}
 
 }
-
-.container {
-	background-color: lightseagreen;
-}
-
-.nav-link {
-	color: white;
-	font-family: 'Lobster', cursive;
-}
-
-#gotcha {
-	padding-bottom: 15px;
-	padding-top: 20px;
-}
-
-.name {
-	/* width: 100%;
-	margin-left: 32%; */
-	display: flex;
-	justify-content: center;
-	color: white;
-	font-size: 120px;
-	font-family: 'Great Vibes', cursive;
-}
-
-.last-name {
-	display: flex;
-	justify-content: center;
-	color: white;
-	font-size: 0;
-	font-family: 'Great Vibes', cursive;
-	animation: grow 2s 1;
-}
-
-@keyframes grow {
-	0% {
-		font-size: 0px;
-	}
-	100% {
-		font-size: 120px;
-	}
-
-}
-
-#gotchatext {
-	text-align: center;
-	margin-left: 28%;
-	margin-right: 28%;
-	color: white;
-	font-family: 'Lobster', cursive;
-	padding-bottom: 30px;
-	letter-spacing: 2px;
-}
-
-#landing-pic {
-	opacity: 0.9;
-	width: 210px;
-    height: 210px;
-	/* margin-left: 40%; */
-	margin-bottom: 50px;
-	border-radius: 50%;
-    -webkit-transform:rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-#landing-pic:hover {
-	opacity: 1;
-}
-
-#img-container {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-}
-
-.links {
-	color: blue;
-	font-family: 'Lobster', cursive;
-}
-
-.col {
-	flex: 33%;
-    max-width: 30%;
-}
-
-.col .imageContainer img {
-    vertical-align: middle;
-    width: 100%;
-  }
-
-  .imageContainer {
-    height: auto;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    margin-bottom: 18px;
-    margin-right: 18px;
-  }
 
 
 
