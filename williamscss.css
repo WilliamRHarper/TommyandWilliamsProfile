@@ -16,7 +16,7 @@
 	padding-top: 20px;
 }
 
-.name {
+#name {
 	/* width: 100%;
 	margin-left: 32%; */
 	display: flex;
@@ -26,7 +26,7 @@
 	font-family: 'Great Vibes', cursive;
 }
 
-.last-name {
+#last-name {
 	display: flex;
 	justify-content: center;
 	color: white;
