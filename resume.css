@@ -1,0 +1,140 @@
+body {
+    color: #222222;
+    font-size: 1em;
+    font-family: 'Open Sans', "Helvetica Neue", sans-serif;
+    background-image: url("coffee.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    .main {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    color: pink;
+    }
+    
+    .personal {
+    /* border: 2px solid whitesmoke; */
+    width: auto;
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+    padding: 1em;
+    color: whitesmoke;
+    }
+    
+    li {
+    list-style: none;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    
+    #landing-pic {
+    opacity: 0.9;
+    width: 210px;
+    height: 210px;
+     /* margin-left: 40%;  */
+    margin-bottom: 50px;
+    border-radius: 50%;
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    }
+    
+    #landing-pic2 {
+    opacity: 0.9;
+    width: 210px;
+    height: 210px;
+    /* margin-left: 40%;  */
+    margin-bottom: 50px;
+    border-radius: 50%;
+    /* -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); */
+    }
+    
+    h2 {
+    background-color: transparent;
+    padding: 1em;
+    text-align: center;
+    color: whitesmoke;
+    }
+    
+    
+    .nav-link {
+    color: white;
+    font-family: 'Lobster', cursive;
+    background-color: black;
+    }
+    
+    .content-footer,
+    .starcontainer,
+    .starcontainerportfolio {
+    text-align: center;
+    }
+    
+    */
+    .content-footer,
+    .introduction,
+    .location,
+    .questions {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    }
+    
+    .social {
+    padding: 0;
+    list-style: none;
+    }
+    
+    section > h1 {
+    margin-top: 2em;
+    }
+    
+    .social > li {
+    display: inline-block;
+    padding-right: 1em;
+    }
+    
+    .content-footer > p {
+    color: white;
+    }
+    
+    .content-footer > a {
+    margin-right: 0.1em;
+    }
+    
+    .content-footer {
+    background-color: #282828;
+    max-width: 100%;
+    padding: 4em 0;
+    }
+    
+    @media only screen and (max-width: 500px) {
+    .img-responsive {
+    }
+    
+    .box:nth-child(1n+2) {
+    border-top: 3px solid #A1A1A1;
+    padding-top: 3em;
+    }
+    .box {
+    display: block;
+    width: 75%;
+    padding-left: 2em;
+    padding-top: 0;
+    }
+    .content-footer {
+    font-size: 0.8em;
+    }
+    }
