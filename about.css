@@ -1,15 +1,3 @@
-/*****color
-Body: #222222
-Border: #a1a1a1
-Footer bg: #282828
-Link: #a1a1a1
-P: white
-*****/
-
-/* -------------------------
-    Typography Declarartions
-   -------------------------*/
-
    body {
 	color: #222222;
 	font-size: 1em;
@@ -29,92 +17,15 @@ P: white
 	font-weight: bold;
   }
   
-  /* -------------------------
-		Link Styles
-	 -------------------------*/
-  
   a {
 	font-weight: bold;
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
-
-@import url(https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap);
-
-@import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
-
-* {
-  font-family: Open Sans;
-}
-
-section {
-  width: 100%;
-  display: inline-block;
-  background: #333;
-  height: 50vh;
-  text-align: center;
-  font-size: 22px;
-  font-weight: 700;
-  text-decoration: underline;
-}
-
-.footer-distributed{
-	background: #666;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	box-sizing: border-box;
-	width: 100%;
-	text-align: left;
-	font: bold 16px sans-serif;
-	padding: 55px 50px;
-}
-
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right{
-	display: inline-block;
-	vertical-align: top;
-}
-
-/* Footer left */
-
-.footer-distributed .footer-left{
-	width: 40%;
-}
-
-/* The company logo */
-
-.footer-distributed h3{
-	color:  #ffffff;
-	font: normal 36px 'Open Sans', cursive;
-	margin: 0;
-}
-
-.footer-distributed h3 span{
-	color:  lightseagreen;
-}
-
-/* Footer links */
-
-.footer-distributed .footer-links{
-	color:  #ffffff;
-	margin: 20px 0 12px;
-	padding: 0;
-}
-
-.footer-distributed .footer-links a{
-	display:inline-block;
-	line-height: 1.8;
-  font-weight:400;
 	text-decoration: none;
-	/*color: #a1a1a1;*/
 	color: #F1F1F1;
   }
   
   a:visited {
 	color: #F1F1F1;
   }
-  
-  /* -------------------------
-		Global Styles
-	 -------------------------*/
   
   .starcontainer h2 {
 	font-size: 2.8em;
@@ -153,10 +64,6 @@ section {
 	display: inline-block;
   }
   
-  /* -------------------------
-		Layout Declarations
-	 -------------------------*/
-  
   .masthead-heading, 
   .masthead-intro,
   .content-footer,
@@ -166,10 +73,11 @@ section {
   }
   
   .masthead {
-	background-image: url("https://unsplash.imgix.net/5/night-city.jpg?q=75&fm=jpg&s=17d530aa2cd2080b1aba21843cc5f433");
+	background-image: url("omni.jpg");
 	background-repeat: no-repeat;
 	border-top: solid 1em #a1a1a1;
 	border-bottom: solid 1em #a1a1a1;
+	color: white;
 	background-size: cover;
 	padding: 6em 0;
   }
@@ -185,10 +93,7 @@ section {
   .masthead-intro {
 	margin-bottom: 0.1em;
 	font-family: 'Shadows Into Light', cursive;
-	font-weight: bold;
-	font-size: 6em;
-	text-transform: uppercase;
-	color: gold;
+	font-size: 2em;
   }
   
   .masthead-heading {
@@ -198,7 +103,6 @@ section {
 	font-size: 6em;
 	letter-spacing: -0.02em;
 	text-transform: uppercase;
-	color: gold;
   }
   
   .content-footer,
@@ -215,10 +119,6 @@ section {
 	padding-bottom: 1.5em;
   }
   
-  /* -------------------------
-	  Portfolio
-	 -------------------------*/
-  
   li {
 	  list-style: none;
 	 }
@@ -228,7 +128,6 @@ section {
 	position: relative;
 	width: 100%;
 	overflow: hidden;
-	  
   }
   .box {
 	float:left;
@@ -265,9 +164,6 @@ section {
 	background-color: #282828;
   }
   
-  /* -------------------------
-		  Footer
-	 -------------------------*/
   .social {
 	padding: 0;
 	list-style: none;
@@ -296,14 +192,10 @@ section {
 	padding: 4em 0;
   }
   
-  /* -------------------------
-		  Media query
-	 -------------------------*/
-  
   @media only screen and (max-width: 500px) {
 	  .img-responsive {
-		/*margin-top: -1em;*/
 	  }
+
 	  .box:nth-child(1n+2) {
 		border-top: 3px solid #a1a1a1;
 		padding-top: 3em;
@@ -324,89 +216,3 @@ section {
 	  font-size: 3em;
 	}
   }
-
-}
-
-.container {
-	background-color: lightseagreen;
-}
-
-.nav-link {
-	color: white;
-	font-family: 'Lobster', cursive;
-}
-
-#gotcha {
-	padding-bottom: 15px;
-	padding-top: 20px;
-}
-
-.name {
-	/* width: 100%;
-	margin-left: 32%; */
-	display: flex;
-	justify-content: center;
-	color: white;
-	font-size: 120px;
-	font-family: 'Great Vibes', cursive;
-}
-
-.last-name {
-	display: flex;
-	justify-content: center;
-	color: white;
-	font-size: 0;
-	font-family: 'Great Vibes', cursive;
-	animation: grow 2s 1;
-}
-
-@keyframes grow {
-	0% {
-		font-size: 30px;
-	}
-	100% {
-		font-size: 120px;
-	}
-
-}
-
-#gotchatext {
-	text-align: center;
-	margin-left: 28%;
-	margin-right: 28%;
-	color: white;
-	font-family: 'Lobster', cursive;
-	padding-bottom: 30px;
-	letter-spacing: 2px;
-}
-
-#landing-pic {
-	opacity: 0.9;
-	width: 210px;
-    height: 210px;
-	/* margin-left: 40%; */
-	margin-bottom: 50px;
-	border-radius: 50%;
-    -webkit-transform:rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-#landing-pic:hover {
-	opacity: 1;
-}
-
-#img-container {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-}
-
-.links {
-	color: blue;
-	font-family: 'Lobster', cursive;
-}
-
-
