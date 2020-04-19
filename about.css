@@ -1,3 +1,21 @@
+<<<<<<< HEAD
+=======
+/*****color
+Body: #222222
+Border: #a1a1a1
+Footer bg: #282828
+Link: #a1a1a1
+P: white
+*****/
+
+/* -------------------------
+    Typography Declarartions
+   -------------------------*/
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+
+
+>>>>>>> f90d352fe1c3d119c0bfd2eadc9943ddf5869b89
    body {
 	color: #222222;
 	font-size: 1em;
@@ -17,8 +35,78 @@
 	font-weight: bold;
   }
   
+<<<<<<< HEAD
   a {
 	font-weight: bold;
+=======
+  /* -------------------------
+		Link Styles
+	 -------------------------*/
+  
+a {
+	font-weight: bold;
+  font-family: Open Sans;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #333;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed{
+	background: #666;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+>>>>>>> f90d352fe1c3d119c0bfd2eadc9943ddf5869b89
 	text-decoration: none;
 	color: #F1F1F1;
   }
@@ -215,4 +303,13 @@
 	.masthead-heading {
 	  font-size: 3em;
 	}
+<<<<<<< HEAD
   }
+=======
+}
+  
+
+
+
+
+>>>>>>> f90d352fe1c3d119c0bfd2eadc9943ddf5869b89
