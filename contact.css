@@ -12,6 +12,11 @@
       overflow: hidden;
     }
     
+    .nav-link {
+      color: white;
+      font-family: 'Lobster', cursive;
+      background-color: black;
+      }
 
 
     #contact-section{
