@@ -15,7 +15,7 @@ body {
 		color: white;
 		font-family: 'Lobster', cursive;
 		background-color: black;
-		}
+}
 	
 	.questions > h2 {
 	font-family: "Gentium Book Basic", Georgia, serif;
@@ -221,4 +221,7 @@ body {
 	.masthead-heading {
 	font-size: 3em;
 	}
-	}
+	}  
+
+
+
